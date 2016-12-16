@@ -1,4 +1,4 @@
-package vn.lamha.spingdao;
+package vn.hamalaja.spingdao;
 
 /**
  * Tham khảo spring DAO
