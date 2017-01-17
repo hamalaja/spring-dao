@@ -1,14 +1,17 @@
 package vn.hamalaja.data;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 /**
- * Tham khảo spring DAO
- * http://docs.spring.io/spring/docs/4.2.x/spring-framework-
- * reference/html/dao.html
+ * Tham khảo https://spring.io/guides/gs/accessing-data-mongodb/
  * 
  * @author lamhm
  *
  */
+@SpringBootApplication
 public class Application {
 	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
 	}
 }
